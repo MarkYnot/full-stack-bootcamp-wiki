@@ -1,4 +1,4 @@
-protocol 协议
+## protocol 协议
 
 OSI Model (5, 7)
 
@@ -13,8 +13,10 @@ http (5 versions)
 3
 
 url (uniform resource locator) 统一资源定位符
-
+```js
 <a href="https://google.com"/>
+```
+
 
 https -> 443
 http -> 80
@@ -34,6 +36,17 @@ POST
 PUT
 DELETE
 PATCH
+
+## API
+  - API defines the methods and data structures that developers can use to interact with a service, library, or software component without needing to understand its internal implementation. (加强开发效率)
+
+## Web API
+  - Web API specifically refers to an API that is accessible over the internet using the HTTP protocol. Web APIS provide a way for applications to communicate with each other over the web, typically using standard HTТР methods like GET, POST, PUT, and DELETE.
+
+## REST（Representational State Transfer）
+ REST is an architectural style for designing networked applications. It emphasizes a set of constraints to create scalable and stateless web services.
+
+> 1. Resources: Everything is a resource identified byaURL (Uniform Resource Locator).
 
 OPTIONS
 
