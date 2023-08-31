@@ -1,0 +1,200 @@
+:root {
+  --font-primary: "Barlow", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --color-primary: #2d373c;
+  --color-secondary: #ce1446;
+  --color-tertiary: #515154;
+}
+
+.nextButton {
+  max-width: 1320px;
+  width: 100%;
+  position: absolute;
+  top: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 26px;
+}
+
+.nextButton i::before {
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+
+.nextButton div {
+  border-radius: 50%;
+  border: 1px solid var(--color-secondary);
+  padding: 10px 10px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: barlow, sans-serif;
+}
+
+.color-red {
+  color: var(--color-secondary);
+}
+
+.background-red {
+  background: var(--color-secondary);
+}
+
+.header-section {
+  padding-bottom: 35px;
+}
+
+.header-section span {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.header-section h2 {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 54px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #2d373c;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  -webkit-text-stroke: 1px var(--color-secondary);
+  -webkit-text-fill-color: transparent;
+}
+
+/**
+   -moz-: spencific to Mozilla Firefox,
+   
+   -ms-: Specific to Microsoft browsers like Internet Explorer and the older versions of Microsoft Edge,
+
+   -webkit-: Specific to WebKit-based browsers like Safari and Chrome (though Chrome has largely moved to its Blink engine)
+**/
+.event-card .schedule {
+  padding: 15px 15px 17px;
+  width: 100%;
+}
+
+.event-card .schedule .time {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.event-card .schedule .room {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-top: 12px;
+}
+
+.color-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.event-card .contact .name {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.event-card .contact .title {
+  font-weight: 700;
+  font-family: raleway, sans-serif;
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-top: 6px;
+}
+
+.logoList {
+  display: flex;
+  padding-top: 25px;
+  max-width: 100px;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-left: 20px;
+  line-height: 8px;
+}
+
+.event-details .title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #2d373c;
+}
+
+.event-details .content {
+  font-size: 16px;
+  line-height: 30px;
+  color: #515154;
+  font-family: raleway, sans-serif;
+  margin-top: 10px;
+}
+
+.event-details .topics span {
+  font-weight: 700;
+  font-size: 18px;
+  -webkit-text-decoration-line: underline !important;
+  text-decoration-line: underline !important;
+  text-transform: capitalize;
+  color: #ce1446;
+  margin-top: 12px;
+  display: block;
+}
+
+.event-details {
+  padding: 20px 40px;
+  border: 1px solid var(--color-secondary);
+}
+
+.event-details .topics ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event-details .topics ul li {
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: capitalize;
+  margin-top: 5px;
+  width: 33%;
+  margin-bottom: 5px;
+  color: #515154;
+  font-family: raleway, sans-serif;
+  line-height: 30px;
+}
+
+.event-cards {
+  max-width: 1320px;
+  width: 100%;
+  margin: auto;
+}
+
+.intro {
+  max-width: 440px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
